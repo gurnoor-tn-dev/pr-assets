@@ -1,0 +1,14 @@
+IMPORTED_AGENT_ID=7c1f88cc-ae89-44e4-950c-766424219553
+
+REGULAR_RUNS (agent_id=7c1f88cc-ae89-44e4-950c-766424219553): 1
+  - c936fef3-0d93-4982-bd8c-ac992f035d6a  status=AgentRunStatus.SUCCESS  instructions="Handle the user's question"
+
+SYSTEM_RUNS targeting this agent (agent_id=NULL): 1
+  - 031e7984-40ce-4732-821b-bdce0450a42e  telemetry.system_agent_id=optimization-engine  telemetry.target_agent_id=7c1f88cc-ae89-44e4-950c-766424219553
+    instructions='Optimization-engine run analyzing the agent'  agent_id=None
+
+=== GET /agents/{id}/runs (what the UI Runs tab fetches) ===
+  - c936fef3  status=success   agent_id=7c1f88cc-ae89-44e4-950c-766424219553
+
+==== IMPORT ROUND-TRIP VERIFIED ====
+Imported agent 'PR-1027 Imported Agent' (7c1f88cc-ae89-44e4-950c-766424219553) has 1 regular runs + 1 system-agent runs.
