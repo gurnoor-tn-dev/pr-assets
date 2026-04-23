@@ -1,0 +1,32 @@
+[log-rt] agent created id=334adc6f-a699-4305-98a5-d0931130965d
+[log-rt] seeded workspace agent.log key=4151ebdbaf354ae3a8f7fb9fc7d6202b/agent-runs/b1a74b49-fb8a-4745-b4b4-e289e29d80f0/workspace/.filament/agent.log bytes=197
+[log-rt] seeded s3_prefix artifact key=4151ebdbaf354ae3a8f7fb9fc7d6202b/system-agents/optimization-engine/runs/b1a74b49-fb8a-4745-b4b4-e289e29d80f0/response.txt
+[log-rt] export downloaded bytes=3285
+ZIP MEMBERS:
+  agent.json
+  config.json
+  demonstrations/index.json
+  tribal-knowledge/index.json
+  runs/b1a74b49-fb8a-4745-b4b4-e289e29d80f0/metadata.json
+  runs/b1a74b49-fb8a-4745-b4b4-e289e29d80f0/artifacts/response.txt
+  runs/b1a74b49-fb8a-4745-b4b4-e289e29d80f0/workspace/workspace/.filament/agent.log
+  runs/index.json
+  feedback/index.json
+  insights/index.json
+  manifest.json
+
+workspace agent.log in ZIP: runs/b1a74b49-fb8a-4745-b4b4-e289e29d80f0/workspace/workspace/.filament/agent.log
+  bytes match: True
+response.txt in ZIP: True
+  bytes match: True
+[log-rt] imported new_aid=65476b40-33b8-4dc1-a454-7dc8cfd5fbbe name=LogRT-imported-ad3e288a
+[log-rt] imported system-agent run id=6491995d-beac-4124-917c-98e583aa9dc6 workspace_s3_prefix=4151ebdbaf354ae3a8f7fb9fc7d6202b/agent-runs/6491995d-beac-4124-917c-98e583aa9dc6/ s3_prefix=4151ebdbaf354ae3a8f7fb9fc7d6202b/agents/65476b40-33b8-4dc1-a454-7dc8cfd5fbbe/runs/6491995d-beac-4124-917c-98e583aa9dc6/
+
+EXPECTED imported log key: 4151ebdbaf354ae3a8f7fb9fc7d6202b/agent-runs/6491995d-beac-4124-917c-98e583aa9dc6/workspace/.filament/agent.log
+log bytes in S3 after import: 197 bytes, match=True
+
+Keys under imported workspace_s3_prefix (4151ebdbaf354ae3a8f7fb9fc7d6202b/agent-runs/6491995d-beac-4124-917c-98e583aa9dc6/):
+  4151ebdbaf354ae3a8f7fb9fc7d6202b/agent-runs/6491995d-beac-4124-917c-98e583aa9dc6/workspace/.filament/agent.log  (197b)
+
+Keys under alt prefix (4151ebdbaf354ae3a8f7fb9fc7d6202b/agents/65476b40-33b8-4dc1-a454-7dc8cfd5fbbe/runs/6491995d-beac-4124-917c-98e583aa9dc6/):
+  4151ebdbaf354ae3a8f7fb9fc7d6202b/agents/65476b40-33b8-4dc1-a454-7dc8cfd5fbbe/runs/6491995d-beac-4124-917c-98e583aa9dc6/response.txt  (24b)
